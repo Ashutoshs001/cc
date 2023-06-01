@@ -1,0 +1,82 @@
+a{
+  text-decoration: none;
+  color: rgb(44, 61, 253);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #d6faff;
+  color: #fcfeff;
+}
+form {
+  border: 3px solid #080808;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #3c97f8;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  /* border: none; */
+  cursor: pointer;
+  width: 100%;
+  color: #080808;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.signinbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #cccbde;
+  color: #000000;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+  color: aliceblue;
+}
+
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+     color: rgb(0, 0, 0);
+  }
+  .signinbtn {
+     width: 100%;
+  }
+}
+
+h2{
+  color: #080808;
+  margin auto;
+
+}
